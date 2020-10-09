@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+#lm .human{
+    width: 28%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#lm h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 50%;
+    font-size: 1.8rem;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: auto;
+    color: #f4164f;
+}
+#lm .card-body{
+    flex: 1 1 auto;
+    height: 180px;
+    padding: 1.25rem;
+}
+#lm .card{
+    margin-top: 6%;
+    margin-left: 3%;
+    width: 90rem;
+    /* border: 1px solid; */
+    border-radius: .25rem;
+    /* border-color: gray; */
+    background-color: lightgrey;
+
+}
+#lm .card-title{
+    font-family: 'Raleway', sans-serif;
+    color: #f4164f;
+    font-weight: 200%;
+    font-size: 1.8rem;
+    justify-content: center;
+    margin-left: 2.5%;
+    margin-top: 1.4%;
+}
+#lm .media{
+    background-color: #f6f6f6;
+    color: red;
+    cursor: pointer;
+    /*padding: 18px;
+    /*width: 100%;
+    /*margin-left: 3%;*/
+   
+    /*height: 180px;*/
+    text-align:justify;
+    outline: none;
+    font-size: 30px;
+    /*margin-top: 2%;*/
+}
+#lm .active, .media:hover{
+    background-color: #d1cccc;
+}
+#lm .content1{
+    width: 100%;
+    /*margin-left: 3%;*/
+    border-radius: 20px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+
+
+#lm .even{
+    background-color: #fbf3f3;
+    color: red;
+    cursor: pointer;
+    padding: 18px;
+    width: 95%;
+    margin-left: 3%;
+    border: none;
+    border-radius: .5rem;
+    height: 180px;
+    text-align:left;
+    outline: none;
+    font-size: 30px;
+    margin-top: 2%;
+}
+/*
+#lm .active, .even:hover{
+    background-color: #fae1e1;
+}
+#lm .content1{
+        width: 92.5%;
+        margin-left: 3%;
+        border-radius: .25rem;
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #fbf3f3;
+    
+}*/
+
+
+#lm p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+/* .image{
+    width: 0px !important;
+    height: 20px !important;
+    display: inline-flex;
+
+} */
+
+#lm 	.cardimage{
+		height: 200px;
+		width: 400px;
+	}
+		
+	#lm 	.media{
+			border: 2px;
+		}
+    #lm .human{
+      width: 45%;
+      margin-top:3%;
+    }
+    #lm h3{
+      color: #e55125;
+      justify-content: center;
+      margin-left: 35%;
+      font-weight: bold;
+    }
+    #lm .lead{
+      color:#0c0d0c;
+    }
+    #lm .content1{
+      background-color: #f1f1f1;
+    }
+    
+     #loem{
+      background-color: #fff0f0 !important;
+    }

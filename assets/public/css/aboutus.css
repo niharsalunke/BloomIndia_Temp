@@ -1,0 +1,63 @@
+#Info h1
+ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #16507b;
+    font-size: 60px;
+    font-weight: 600;
+ }
+
+#Info .sideleft
+{
+  margin: 80px 10% 80px 0px;
+  box-shadow: 5px 5px #ff7025;
+  border-radius: 0 0 30px 0;
+}
+#Info .sideright
+{
+  margin: 80px 0px 80px 10%;
+  box-shadow: -5px 5px #ff7025;
+  border-radius: 0 0 0 30px;
+}
+#Info .jumbotron {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background-color: rgba(200, 100, 0, 0.1);
+  padding: 5px 30px;
+  font-family: 'Poppins', sans-serif;
+}
+#Info h2
+{
+   font-size: 60px;
+   
+}
+#Info h3
+{
+  font-size: 25px;
+  
+  font-weight: 400;
+}
+
+#Info li
+{ 
+  font-size: 25px;
+  
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+   #Info h1 {
+     font-size: 50px;
+   }
+   #Info h2 {
+     font-size: 40px;
+   }
+   #Info h3 {
+    font-size: 25px;
+  }
+   #Info .himage {
+     display: none;
+   }
+ }
